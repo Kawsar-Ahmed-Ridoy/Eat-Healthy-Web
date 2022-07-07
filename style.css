@@ -1,0 +1,53 @@
+*body {
+    margin: 0;
+    padding: 0;
+  }
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6 {
+    font-family: "Roboto Mono", monospace;
+  }
+  
+  .eat-healthy-main {
+    display: flex;
+    justify-content: center;
+  }
+  .eat-healthy-text {
+    width: 45%;
+    margin: auto;
+    margin-right: -50px;
+  }
+  .eat-healthy-text h1 {
+    font-size: 80px;
+    color: #474747;
+  }
+  .eat-healthy-text h1 span {
+    color: #ff7e40;
+}
+
+.eat-healthy-text p {
+    color: #636363dd;
+    font-size: 40px;
+}
+
+a.anchor-tag {
+    text-decoration: none;
+    font-size: 35px;
+    padding: 10px 30px;
+    border-radius: 35px;
+    background: linear-gradient(90deg, #ff7e40b8, #fb5200);
+    color: white;
+}
+
+  .eat-healthy-image {
+    width: 45%;
+  }
+  .eat-healthy-image img {
+    width: 100%;
+    margin-left: -120px;
+    margin-top: 30px;
+  }
+  
