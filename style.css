@@ -12,7 +12,6 @@ h6 {
 }
 section {
   margin: 50px 0px;
-  height: 100vh;
 }
 .eat-healthy-main {
   display: flex;
@@ -84,19 +83,16 @@ a.anchor-tag {
   width: 80%;
   margin: auto;
 }
-
 .my-recipies-text {
   text-align: center;
   width: 60%;
   margin: auto;
 }
-
 .my-recipies-text h1 {
   font-size: 70px;
   text-transform: capitalize;
   color: rgb(71, 71, 71);
 }
-
 .my-recipies-text p {
   color: rgb(71, 71, 71);
   font-size: 30px;
@@ -108,48 +104,59 @@ a.anchor-tag {
   display: flex;
   justify-content: center;
 }
-
 .my-recipie-title-image {
   width: 40%;
-  box-shadow: 0px 0px 20px grey;
+  box-shadow: grey 0px 0px 20px;
   border-radius: 20px;
   margin: 15px 40px;
 }
 .my-recipie-image img {
   width: 100%;
 }
-
 .my-recipie-image {
   padding: 20px;
 }
 .my-recipie-title h3 {
   font-size: 25px;
 }
-
 .my-recipie-title p {
   font-size: 22px;
-  color: #8e8e8e;
+  color: rgb(142, 142, 142);
 }
-
 .my-analytics-main {
-  margin: auto;
+  margin: 80px auto;
   width: 80%;
   text-align: center;
-  box-shadow: 0px 0px 20px gray;
+  box-shadow: gray 0px 0px 20px;
   border-radius: 20px;
   display: flex;
   justify-content: center;
   padding: 40px;
-  margin-top: 80px;
 }
 .my-analytics-social p {
-  color: #8e8e8e;
+  color: rgb(142, 142, 142);
   font-size: 20px;
 }
 .my-analytics-social h1 {
   font-size: 50px;
 }
-
 .my-analytics-social {
   margin: 0px 70px;
+}
+.footer-main {
+  background: black;
+  text-align: center;
+  padding: 30px;
+}
+.footer-main h1 {
+  font-size: 30px;
+  color: gray;
+}
+.footer-main h1 span {
+  color: rgb(255, 122, 56);
+  margin: 15px;
+}
+.footer-main p {
+  color: rgb(200, 200, 200);
+  font-size: 22px;
 }
