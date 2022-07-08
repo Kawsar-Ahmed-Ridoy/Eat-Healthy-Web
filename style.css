@@ -1,53 +1,82 @@
-*body {
-    margin: 0;
-    padding: 0;
-  }
-  h1,
-  h2,
-  h3,
-  h4,
-  h5,
-  h6 {
-    font-family: "Roboto Mono", monospace;
-  }
-  
-  .eat-healthy-main {
-    display: flex;
-    justify-content: center;
-  }
-  .eat-healthy-text {
-    width: 45%;
-    margin: auto;
-    margin-right: -50px;
-  }
-  .eat-healthy-text h1 {
-    font-size: 80px;
-    color: #474747;
-  }
-  .eat-healthy-text h1 span {
-    color: #ff7e40;
+body {
+  margin: 0px;
+  padding: 0px;
 }
-
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Roboto Mono", monospace;
+}
+section {
+  margin: 50px 0px;
+  height: 90vh;
+}
+.eat-healthy-main {
+  display: flex;
+  justify-content: center;
+}
+.eat-healthy-text {
+  width: 45%;
+  margin: auto -50px auto auto;
+}
+.eat-healthy-text h1 {
+  font-size: 80px;
+  color: rgb(71, 71, 71);
+}
+.eat-healthy-text h1 span {
+  color: rgb(255, 126, 64);
+}
 .eat-healthy-text p {
-    color: #636363dd;
-    font-size: 40px;
+  color: rgba(99, 99, 99, 0.867);
+  font-size: 40px;
+  margin-top: -25px;
+  display: inline-block;
 }
-
 a.anchor-tag {
-    text-decoration: none;
-    font-size: 35px;
-    padding: 10px 30px;
-    border-radius: 35px;
-    background: linear-gradient(90deg, #ff7e40b8, #fb5200);
-    color: white;
+  text-decoration: none;
+  font-size: 35px;
+  padding: 10px 30px;
+  border-radius: 35px;
+  background: linear-gradient(90deg, rgba(255, 126, 64, 0.72), rgb(251, 82, 0));
+  color: white;
 }
-
-  .eat-healthy-image {
-    width: 45%;
-  }
-  .eat-healthy-image img {
-    width: 100%;
-    margin-left: -120px;
-    margin-top: 30px;
-  }
-  
+.eat-healthy-image {
+  width: 45%;
+}
+.eat-healthy-image img {
+  width: 100%;
+  margin-left: -120px;
+  margin-top: 30px;
+}
+.about-me {
+  background: url("image/7.png") 0% 0% / cover no-repeat;
+}
+.about-me-main {
+  display: flex;
+  justify-content: center;
+}
+.about-me-image {
+  width: 45%;
+  margin-top: 50px;
+  margin-left: 150px;
+}
+.about-me-text {
+  width: 30%;
+  margin: auto 30px;
+}
+.about-me-image img {
+  display: block;
+  width: 68%;
+}
+.about-me-text h1 {
+  font-size: 80px;
+  color: rgb(71, 71, 71);
+}
+.about-me-text p {
+  color: rgba(99, 99, 99, 0.867);
+  font-size: 30px;
+  margin-top: -25px;
+}
